@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>2nd Quarter FA1</title>
+
+        <meta charset = "UTF-8">
+        <meta name = "author" content = "migan">
+        <meta name = "keywords" content="HTML, CSS, Javascript">
+        <meta name = "revised" content = "11/16/23">
+
+        <link rel="" href="" type="">
+
+        <style>
+            body {
+                font-size: 2em;
+                font-family: Arial;
+            }
+
+            .link1st{
+                text-decoration: none;
+                color: rgb(0, 0, 0);
+                background-color: rgb(255, 255, 255);
+            }
+
+            .link1st:hover{
+                color:rgb(247, 135, 8);
+                background-color: black;
+            }
+
+            .link1st:active{
+                color: black;
+                background-color: red;
+            }
+
+            .link1st:visited{
+                color: rgb(255, 255, 255);
+                background-color: rgb(0, 0, 0);
+            }
+
+            .link2nd{
+                text-decoration: none;
+                color: rgb(255, 0, 0);
+                background-color: rgb(255, 255, 255);
+            }
+
+            .link2nd:hover{
+                color:rgb(0, 78, 247);
+                background-color: black;
+            }
+
+            .link2nd:active{
+                color: rgb(255, 0, 140);
+                background-color: rgb(252, 252, 252);
+            }
+
+            .link2nd:visited{
+                color: rgb(255, 255, 255);
+                background-color: rgb(255, 196, 0);
+            }
+
+            div{
+                border: 2px solid black;
+                padding: 10px;
+                width: 200px;
+                height: 150px;
+            }
+
+            #div1:target{
+                background-color: rgb(255, 216, 242);
+                color:rgb(153, 118, 153);
+            }
+
+            #div2:target{
+                border: 10px dotted green;
+                background-color: rgb(201, 255, 187);
+                color: green;
+            }
+        </style>
+    </head>
+
+    <body>
+        <a class = "link1st" href = "#div1">First Link</a>
+        <a class = "link2nd" href = "#div2">Second Link</a>
+        <br><br>
+        <div id = "div1">First Div here</div>
+        <br>
+        <div id = "div2">Second Div here</div>
+    </body>
+</html>
